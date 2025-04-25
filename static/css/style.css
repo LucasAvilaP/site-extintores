@@ -1,0 +1,71 @@
+/* static/css/style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar .container {
+    background-color: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+.bi {
+    transition: transform 0.2s ease;
+}
+.bi:hover {
+    transform: scale(1.1);
+}
+
+.carousel-item img {
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+
+.logo-img {
+    max-width: 180px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+/* Navbar limpa e minimalista */
+.custom-navbar {
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: none;
+    border: none;
+    z-index: 10;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-left: 15px;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: #00e676 !important;
+}
+
+.navbar .btn-outline-success {
+    border-color: #00e676;
+    color: #00e676;
+    font-size: 0.9rem;
+    padding: 6px 14px;
+    transition: 0.2s ease;
+}
+
+.navbar .btn-outline-success:hover {
+    background-color: #00e676;
+    color: black;
+}
+
+
+
+#contato .form-control:focus {
+    border-color: #00e676;
+    box-shadow: 0 0 0 0.2rem rgba(0, 230, 118, 0.25);
+  }
+  
