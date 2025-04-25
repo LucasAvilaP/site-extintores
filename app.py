@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 import os
 
 app = Flask(__name__)
-load_dotenv()  # Carrega as variáveis do .env
-app.secret_key = "123456"  # Mantenha isso antes de iniciar as rotas
+load_dotenv() 
+app.secret_key = "123456" 
 
 # Configurações do servidor SMTP do Gmail
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
